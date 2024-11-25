@@ -6,11 +6,11 @@ let c=document.getElementById("c")
 
 gp.addEventListener("click",()=>{
     console.log("Grand parent clicked")
-    gp.style.backgroundColor="red"
+    gp.style.backgroundColor="yellow"
 })
 p.addEventListener("click",()=>{
     console.log("Parent cliked")
-    p.style.backgroundColor="yellow"
+    p.style.backgroundColor="pink"
 })
 c.addEventListener("click",()=>{
     console.log("Chlid clicked")
@@ -22,12 +22,12 @@ c.addEventListener("click",()=>{
 // gp.addEventListener("click",()=>{
 //    setTimeout(()=>{
 //      console.log("Grand parent clicked")
-//     gp.style.backgroundColor="red"
+//     gp.style.backgroundColor="yellow"
 //    },2000)
 // })
 // p.addEventListener("click",()=>{
 //     console.log("Parent cliked")
-//     p.style.backgroundColor="yellow"
+//     p.style.backgroundColor="pink"
 // })
 // c.addEventListener("click",()=>{
 //     console.log("Chlid clicked")
@@ -38,7 +38,7 @@ c.addEventListener("click",()=>{
 
 // gp.addEventListener("click",()=>{
 //         console.log("parent clicked")
-//         gp.style.backgroundColor="yellow"
+//         gp.style.backgroundColor="blue"
 // })
 // p.addEventListener("click",()=>{
 //     setTimeout(()=>{
@@ -48,18 +48,18 @@ c.addEventListener("click",()=>{
 // })
 // c.addEventListener("click",()=>{
 //     console.log("chlid child")
-//     c.style.backgroundColor="red"
+//     c.style.backgroundColor="purple"
 // })
 
 // // set timeout only for chlid
 
 // gp.addEventListener("click",()=>{
 //     console.log("grandparent")
-//     gp.style.backgroundColor="red"
+//     gp.style.backgroundColor="green"
 // })
 // p.addEventListener("click",()=>{
 //     console.log("parent")
-//     p.style.backgroundColor="green"
+//     p.style.backgroundColor="orange"
 // })
 // c.addEventListener("click",()=>{
 //     setTimeout(()=>{
@@ -74,7 +74,7 @@ c.addEventListener("click",()=>{
 //     e.stopPropagation()
 //     setTimeout(()=>{
 //         console.log("Grandparent clicked")
-//         gp.style.backgroundColor="red"
+//         gp.style.backgroundColor="pink"
 //     },6000)
 // })
 // p.addEventListener("click",(e)=>{
@@ -89,7 +89,7 @@ c.addEventListener("click",()=>{
 //     e.stopPropagation()
 //     setTimeout(()=>{
 //         console.log("Chlid clicked")
-//         c.style.backgroundColor="yellow"
+//         c.style.backgroundColor="gray"
 //     },2000)
 // })
 
@@ -101,7 +101,7 @@ c.addEventListener("click",()=>{
 
 // gp.addEventListener("click",()=>{
 //     console.log("Grand Parent")
-//     gp.style.backgroundColor="red"
+//     gp.style.backgroundColor="acne"
 // },true)
 // p.addEventListener("click",()=>{
 //     console.log("Parent")
@@ -109,7 +109,7 @@ c.addEventListener("click",()=>{
 // },true)
 // c.addEventListener("click",()=>{
 //     console.log("Chlid")
-//     c.style.backgroundColor="blue"
+//     c.style.backgroundColor="purple"
 // },true)
 
 
@@ -118,7 +118,7 @@ c.addEventListener("click",()=>{
 // gp.addEventListener("click",()=>{
 //     setTimeout(()=>{
 //         console.log("gp")
-//     gp.style.backgroundColor="red"
+//     gp.style.backgroundColor="blue"
 //     },2000)
 // },true)
 // p.addEventListener("click",()=>{
@@ -127,7 +127,7 @@ c.addEventListener("click",()=>{
 // },true)
 // c.addEventListener("click",()=>{
 //     console.log("c")
-//     c.style.backgroundColor='green'
+//     c.style.backgroundColor="red"
 // },true)
 
 
@@ -152,7 +152,7 @@ c.addEventListener("click",()=>{
 
 // gp.addEventListener("click",()=>{
 //      console.log("gp")
-//     gp.style.backgroundColor="red"
+//     gp.style.backgroundColor="pink"
 // },true)
 // p.addEventListener("click",()=>{
 //     console.log("p")
@@ -161,7 +161,7 @@ c.addEventListener("click",()=>{
 // c.addEventListener("click",()=>{
 //     setTimeout(()=>{
 //         console.log("c")
-//     c.style.backgroundColor='green'
+//     c.style.backgroundColor="orange"
 //     },2000)
 // },true)
 
@@ -179,7 +179,7 @@ c.addEventListener("click",()=>{
 //     // e.stopPropagation();
 //     setTimeout(()=>{
 //         console.log("Parent cliked")
-//         p.style.backgroundColor="green"
+//         p.style.backgroundColor="black"
 //     },4000)
     
 // },true)
@@ -208,7 +208,7 @@ c.addEventListener("click",()=>{
 //     e.stopPropagation();
 //     setTimeout(()=>{
 //         console.log("Parent cliked")
-//         p.style.backgroundColor="green"
+//         p.style.backgroundColor="yellow"
 //     })
 // },true)
 // c.addEventListener("click",(e)=>{
@@ -223,7 +223,7 @@ c.addEventListener("click",()=>{
 //     // e.stopPropagation()
 //     setTimeout(()=>{
 //         console.log("Grandparent clicked")
-//         gp.style.backgroundColor="red"
+//         gp.style.backgroundColor="orange"
 //     })
 // },false)
 // p.addEventListener("click",(e)=>{
@@ -238,7 +238,7 @@ c.addEventListener("click",()=>{
 //     // e.stopPropagation()
 //     setTimeout(()=>{
 //         console.log("Chlid clicked")
-//         c.style.backgroundColor="pink"
+//         c.style.backgroundColor="red"
 //     })
 // },true)
 
@@ -323,7 +323,7 @@ c.addEventListener("click",()=>{
 //     // e.stopPropagation();
 //     setTimeout(()=>{
 //         console.log("Parent cliked")
-//         p.style.backgroundColor="green"
+//         p.style.backgroundColor="yellow"
 //     },3000)
     
 // },true) 
@@ -340,7 +340,7 @@ c.addEventListener("click",()=>{
 //     // e.stopPropagation()
 //     setTimeout(()=>{
 //         console.log("Grandparent clicked")
-//         gp.style.backgroundColor="red"
+//         gp.style.backgroundColor="orange"
 //     },2000)
 // },true)
 // p.addEventListener("click",(e)=>{
@@ -365,7 +365,7 @@ c.addEventListener("click",()=>{
 //     // e.stopPropagation()
 //     setTimeout(()=>{
 //         console.log("Grandparent clicked")
-//         gp.style.backgroundColor="red"
+//         gp.style.backgroundColor="black"
 //     },2000)
 // },false)
 // p.addEventListener("click",(e)=>{
@@ -380,6 +380,6 @@ c.addEventListener("click",()=>{
 //     e.stopPropagation()
 //     setTimeout(()=>{
 //         console.log("Chlid clicked")
-//         c.style.backgroundColor="pink"
+//         c.style.backgroundColor="purple"
 //     },6000)
 // },false)
